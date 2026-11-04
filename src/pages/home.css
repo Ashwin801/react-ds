@@ -3,7 +3,7 @@
     height: 100vh;
     display: flex;
     width: 100vw;
-    gap: 20px;
+    gap: 30px;
     font-family: "Raleway", sans-serif;
 
 }
@@ -15,7 +15,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+    gap: 15px;
+    
+}
+   
+
+.sidebar :hover{
+    background-color: rgb(254, 5, 5);
+    
+
 }
 .main{
     display: block;
@@ -24,6 +32,11 @@
 .hero img{
     width: 350px;
 }
+.hero img:hover{
+    transform: scale(1.1);
+     transition: transform 0.5s cubic-bezier(0.34,1.56,0.64,1)
+
+}
 .hero p{
     color: white;
 }
@@ -31,8 +44,9 @@
     background: linear-gradient(to top right,rgba(0,0,0,1.0),rgba(0,0,0,0.1)),url("../assets/mainimage.webp");
     padding-bottom: 120px;
     background-size: cover;
-    padding-top: 120px;
+    padding-top: 100px;
     padding-left: 30px;
+
     
 }
 .hero-button{
@@ -56,22 +70,7 @@
     background-color: white;
     color:#000000;
 }
-.new{
-color: white;
-font-size: 15px;
 
-}
-.img1{
-    display: flex;
-    height: 250px;
-    gap: 30px;
-}
-.trending{
-    color: white;
-    font-size: 15px;
-}
-.img2{
-    display: flex;
-    height: 250px;
-    gap: 30px;
-}
+
+
+
