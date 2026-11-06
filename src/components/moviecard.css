@@ -13,12 +13,12 @@
     
 }
 .img2 img{
-    border-radius: 6%;
+    border-radius: 5%;
     object-fit: cover;
     animation: reverse;
 
 }
 .img2 img:hover{
-    transform: scale(1.1);
+    transform: scale(1.15);
      transition: transform 0.5s cubic-bezier(0.34,1.56,0.64,1)
 }
